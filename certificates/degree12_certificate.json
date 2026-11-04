@@ -1,0 +1,645 @@
+{
+  "statement": "Q4.4 holds for every degree 1 <= d <= 12",
+  "arithmetic": "Python arbitrary-precision integer arithmetic only",
+  "rows": [
+    {
+      "d": 3,
+      "k": 2,
+      "N": 6,
+      "Q": 15,
+      "q_checked": 14,
+      "q_passing_power_bound": 0,
+      "pairs_checked": 0,
+      "survivors": []
+    },
+    {
+      "d": 4,
+      "k": 2,
+      "N": 9,
+      "Q": 36,
+      "q_checked": 35,
+      "q_passing_power_bound": 4,
+      "pairs_checked": 5,
+      "survivors": []
+    },
+    {
+      "d": 4,
+      "k": 3,
+      "N": 7,
+      "Q": 35,
+      "q_checked": 34,
+      "q_passing_power_bound": 0,
+      "pairs_checked": 0,
+      "survivors": []
+    },
+    {
+      "d": 5,
+      "k": 2,
+      "N": 12,
+      "Q": 66,
+      "q_checked": 65,
+      "q_passing_power_bound": 10,
+      "pairs_checked": 55,
+      "survivors": []
+    },
+    {
+      "d": 5,
+      "k": 3,
+      "N": 11,
+      "Q": 165,
+      "q_checked": 164,
+      "q_passing_power_bound": 10,
+      "pairs_checked": 21,
+      "survivors": []
+    },
+    {
+      "d": 5,
+      "k": 4,
+      "N": 9,
+      "Q": 126,
+      "q_checked": 125,
+      "q_passing_power_bound": 0,
+      "pairs_checked": 0,
+      "survivors": []
+    },
+    {
+      "d": 6,
+      "k": 2,
+      "N": 15,
+      "Q": 105,
+      "q_checked": 104,
+      "q_passing_power_bound": 17,
+      "pairs_checked": 170,
+      "survivors": []
+    },
+    {
+      "d": 6,
+      "k": 3,
+      "N": 14,
+      "Q": 364,
+      "q_checked": 363,
+      "q_passing_power_bound": 29,
+      "pairs_checked": 361,
+      "survivors": []
+    },
+    {
+      "d": 6,
+      "k": 4,
+      "N": 12,
+      "Q": 495,
+      "q_checked": 494,
+      "q_passing_power_bound": 21,
+      "pairs_checked": 83,
+      "survivors": []
+    },
+    {
+      "d": 6,
+      "k": 5,
+      "N": 10,
+      "Q": 252,
+      "q_checked": 251,
+      "q_passing_power_bound": 0,
+      "pairs_checked": 0,
+      "survivors": []
+    },
+    {
+      "d": 7,
+      "k": 2,
+      "N": 18,
+      "Q": 153,
+      "q_checked": 152,
+      "q_passing_power_bound": 32,
+      "pairs_checked": 585,
+      "survivors": []
+    },
+    {
+      "d": 7,
+      "k": 3,
+      "N": 17,
+      "Q": 680,
+      "q_checked": 679,
+      "q_passing_power_bound": 63,
+      "pairs_checked": 2249,
+      "survivors": []
+    },
+    {
+      "d": 7,
+      "k": 4,
+      "N": 15,
+      "Q": 1365,
+      "q_checked": 1364,
+      "q_passing_power_bound": 57,
+      "pairs_checked": 1196,
+      "survivors": []
+    },
+    {
+      "d": 7,
+      "k": 5,
+      "N": 13,
+      "Q": 1287,
+      "q_checked": 1286,
+      "q_passing_power_bound": 34,
+      "pairs_checked": 176,
+      "survivors": []
+    },
+    {
+      "d": 7,
+      "k": 6,
+      "N": 11,
+      "Q": 462,
+      "q_checked": 461,
+      "q_passing_power_bound": 0,
+      "pairs_checked": 0,
+      "survivors": []
+    },
+    {
+      "d": 8,
+      "k": 2,
+      "N": 21,
+      "Q": 210,
+      "q_checked": 209,
+      "q_passing_power_bound": 43,
+      "pairs_checked": 1113,
+      "survivors": []
+    },
+    {
+      "d": 8,
+      "k": 3,
+      "N": 20,
+      "Q": 1140,
+      "q_checked": 1139,
+      "q_passing_power_bound": 100,
+      "pairs_checked": 6446,
+      "survivors": []
+    },
+    {
+      "d": 8,
+      "k": 4,
+      "N": 18,
+      "Q": 3060,
+      "q_checked": 3059,
+      "q_passing_power_bound": 141,
+      "pairs_checked": 12406,
+      "survivors": []
+    },
+    {
+      "d": 8,
+      "k": 5,
+      "N": 16,
+      "Q": 4368,
+      "q_checked": 4367,
+      "q_passing_power_bound": 107,
+      "pairs_checked": 4249,
+      "survivors": []
+    },
+    {
+      "d": 8,
+      "k": 6,
+      "N": 14,
+      "Q": 3003,
+      "q_checked": 3002,
+      "q_passing_power_bound": 55,
+      "pairs_checked": 406,
+      "survivors": []
+    },
+    {
+      "d": 8,
+      "k": 7,
+      "N": 12,
+      "Q": 792,
+      "q_checked": 791,
+      "q_passing_power_bound": 0,
+      "pairs_checked": 0,
+      "survivors": []
+    },
+    {
+      "d": 9,
+      "k": 2,
+      "N": 24,
+      "Q": 276,
+      "q_checked": 275,
+      "q_passing_power_bound": 61,
+      "pairs_checked": 2368,
+      "survivors": []
+    },
+    {
+      "d": 9,
+      "k": 3,
+      "N": 23,
+      "Q": 1771,
+      "q_checked": 1770,
+      "q_passing_power_bound": 154,
+      "pairs_checked": 17822,
+      "survivors": []
+    },
+    {
+      "d": 9,
+      "k": 4,
+      "N": 21,
+      "Q": 5985,
+      "q_checked": 5984,
+      "q_passing_power_bound": 256,
+      "pairs_checked": 49936,
+      "survivors": []
+    },
+    {
+      "d": 9,
+      "k": 5,
+      "N": 19,
+      "Q": 11628,
+      "q_checked": 11627,
+      "q_passing_power_bound": 237,
+      "pairs_checked": 33114,
+      "survivors": []
+    },
+    {
+      "d": 9,
+      "k": 6,
+      "N": 18,
+      "Q": 18564,
+      "q_checked": 18563,
+      "q_passing_power_bound": 180,
+      "pairs_checked": 12283,
+      "survivors": []
+    },
+    {
+      "d": 9,
+      "k": 7,
+      "N": 16,
+      "Q": 11440,
+      "q_checked": 11439,
+      "q_passing_power_bound": 76,
+      "pairs_checked": 695,
+      "survivors": []
+    },
+    {
+      "d": 9,
+      "k": 8,
+      "N": 13,
+      "Q": 1287,
+      "q_checked": 1286,
+      "q_passing_power_bound": 0,
+      "pairs_checked": 0,
+      "survivors": []
+    },
+    {
+      "d": 10,
+      "k": 2,
+      "N": 27,
+      "Q": 351,
+      "q_checked": 350,
+      "q_passing_power_bound": 74,
+      "pairs_checked": 3636,
+      "survivors": []
+    },
+    {
+      "d": 10,
+      "k": 3,
+      "N": 26,
+      "Q": 2600,
+      "q_checked": 2599,
+      "q_passing_power_bound": 222,
+      "pairs_checked": 40925,
+      "survivors": []
+    },
+    {
+      "d": 10,
+      "k": 4,
+      "N": 24,
+      "Q": 10626,
+      "q_checked": 10625,
+      "q_passing_power_bound": 409,
+      "pairs_checked": 144718,
+      "survivors": []
+    },
+    {
+      "d": 10,
+      "k": 5,
+      "N": 23,
+      "Q": 33649,
+      "q_checked": 33648,
+      "q_passing_power_bound": 530,
+      "pairs_checked": 240960,
+      "survivors": []
+    },
+    {
+      "d": 10,
+      "k": 6,
+      "N": 21,
+      "Q": 54264,
+      "q_checked": 54263,
+      "q_passing_power_bound": 416,
+      "pairs_checked": 102010,
+      "survivors": []
+    },
+    {
+      "d": 10,
+      "k": 7,
+      "N": 19,
+      "Q": 50388,
+      "q_checked": 50387,
+      "q_passing_power_bound": 279,
+      "pairs_checked": 29914,
+      "survivors": []
+    },
+    {
+      "d": 10,
+      "k": 8,
+      "N": 17,
+      "Q": 24310,
+      "q_checked": 24309,
+      "q_passing_power_bound": 109,
+      "pairs_checked": 1347,
+      "survivors": []
+    },
+    {
+      "d": 10,
+      "k": 9,
+      "N": 14,
+      "Q": 2002,
+      "q_checked": 2001,
+      "q_passing_power_bound": 0,
+      "pairs_checked": 0,
+      "survivors": []
+    },
+    {
+      "d": 11,
+      "k": 2,
+      "N": 30,
+      "Q": 435,
+      "q_checked": 434,
+      "q_passing_power_bound": 95,
+      "pairs_checked": 6352,
+      "survivors": [
+        {
+          "q": 41,
+          "p": 11,
+          "v": 95
+        },
+        {
+          "q": 42,
+          "p": 11,
+          "v": 100
+        }
+      ]
+    },
+    {
+      "d": 11,
+      "k": 3,
+      "N": 29,
+      "Q": 3654,
+      "q_checked": 3653,
+      "q_passing_power_bound": 301,
+      "pairs_checked": 79658,
+      "survivors": []
+    },
+    {
+      "d": 11,
+      "k": 4,
+      "N": 27,
+      "Q": 17550,
+      "q_checked": 17549,
+      "q_passing_power_bound": 614,
+      "pairs_checked": 358312,
+      "survivors": []
+    },
+    {
+      "d": 11,
+      "k": 5,
+      "N": 26,
+      "Q": 65780,
+      "q_checked": 65779,
+      "q_passing_power_bound": 961,
+      "pairs_checked": 923025,
+      "survivors": []
+    },
+    {
+      "d": 11,
+      "k": 6,
+      "N": 24,
+      "Q": 134596,
+      "q_checked": 134595,
+      "q_passing_power_bound": 897,
+      "pairs_checked": 667267,
+      "survivors": []
+    },
+    {
+      "d": 11,
+      "k": 7,
+      "N": 22,
+      "Q": 170544,
+      "q_checked": 170543,
+      "q_passing_power_bound": 709,
+      "pairs_checked": 311210,
+      "survivors": []
+    },
+    {
+      "d": 11,
+      "k": 8,
+      "N": 20,
+      "Q": 125970,
+      "q_checked": 125969,
+      "q_passing_power_bound": 410,
+      "pairs_checked": 64044,
+      "survivors": []
+    },
+    {
+      "d": 11,
+      "k": 9,
+      "N": 18,
+      "Q": 48620,
+      "q_checked": 48619,
+      "q_passing_power_bound": 141,
+      "pairs_checked": 1864,
+      "survivors": []
+    },
+    {
+      "d": 11,
+      "k": 10,
+      "N": 16,
+      "Q": 8008,
+      "q_checked": 8007,
+      "q_passing_power_bound": 0,
+      "pairs_checked": 0,
+      "survivors": []
+    },
+    {
+      "d": 12,
+      "k": 2,
+      "N": 33,
+      "Q": 528,
+      "q_checked": 527,
+      "q_passing_power_bound": 112,
+      "pairs_checked": 9123,
+      "survivors": [
+        {
+          "q": 50,
+          "p": 12,
+          "v": 131
+        },
+        {
+          "q": 51,
+          "p": 12,
+          "v": 136
+        },
+        {
+          "q": 52,
+          "p": 12,
+          "v": 142
+        },
+        {
+          "q": 61,
+          "p": 13,
+          "v": 181
+        },
+        {
+          "q": 62,
+          "p": 13,
+          "v": 187
+        }
+      ]
+    },
+    {
+      "d": 12,
+      "k": 3,
+      "N": 32,
+      "Q": 4960,
+      "q_checked": 4959,
+      "q_passing_power_bound": 403,
+      "pairs_checked": 152404,
+      "survivors": []
+    },
+    {
+      "d": 12,
+      "k": 4,
+      "N": 30,
+      "Q": 27405,
+      "q_checked": 27404,
+      "q_passing_power_bound": 928,
+      "pairs_checked": 911378,
+      "survivors": []
+    },
+    {
+      "d": 12,
+      "k": 5,
+      "N": 29,
+      "Q": 118755,
+      "q_checked": 118754,
+      "q_passing_power_bound": 1598,
+      "pairs_checked": 2826816,
+      "survivors": []
+    },
+    {
+      "d": 12,
+      "k": 6,
+      "N": 27,
+      "Q": 296010,
+      "q_checked": 296009,
+      "q_passing_power_bound": 1943,
+      "pairs_checked": 4158001,
+      "survivors": []
+    },
+    {
+      "d": 12,
+      "k": 7,
+      "N": 25,
+      "Q": 480700,
+      "q_checked": 480699,
+      "q_passing_power_bound": 1561,
+      "pairs_checked": 2013949,
+      "survivors": []
+    },
+    {
+      "d": 12,
+      "k": 8,
+      "N": 23,
+      "Q": 490314,
+      "q_checked": 490313,
+      "q_passing_power_bound": 1132,
+      "pairs_checked": 821353,
+      "survivors": []
+    },
+    {
+      "d": 12,
+      "k": 9,
+      "N": 21,
+      "Q": 293930,
+      "q_checked": 293929,
+      "q_passing_power_bound": 573,
+      "pairs_checked": 122931,
+      "survivors": []
+    },
+    {
+      "d": 12,
+      "k": 10,
+      "N": 19,
+      "Q": 92378,
+      "q_checked": 92377,
+      "q_passing_power_bound": 178,
+      "pairs_checked": 2328,
+      "survivors": []
+    },
+    {
+      "d": 12,
+      "k": 11,
+      "N": 17,
+      "Q": 12376,
+      "q_checked": 12375,
+      "q_passing_power_bound": 0,
+      "pairs_checked": 0,
+      "survivors": []
+    }
+  ],
+  "survivors_before_trace_classification": [
+    [
+      11,
+      2,
+      41,
+      11,
+      95
+    ],
+    [
+      11,
+      2,
+      42,
+      11,
+      100
+    ],
+    [
+      12,
+      2,
+      50,
+      12,
+      131
+    ],
+    [
+      12,
+      2,
+      51,
+      12,
+      136
+    ],
+    [
+      12,
+      2,
+      52,
+      12,
+      142
+    ],
+    [
+      12,
+      2,
+      61,
+      13,
+      181
+    ],
+    [
+      12,
+      2,
+      62,
+      13,
+      187
+    ]
+  ],
+  "survivors_after_trace_classification": []
+}

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="880" viewBox="0 0 1440 880" role="img" aria-labelledby="title desc">
+<title id="title">Kubitzke–Welker Question 4.4 through degree thirteen</title>
+<desc id="desc">Positive initial differences of positive-integer real-rooted polynomials with constant term one are simplicial f-vectors through actual degree 13, with no coefficient-height bound. Newton inequalities alone suffice through degree 11 and fail at degree 12. The proof combines an analytic infinite tail with exact finite enumeration and final arithmetic exclusions. AI-only review; novelty not established.</desc>
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101e31"/><stop offset="1" stop-color="#172d42"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#72e5bf"/><stop offset="1" stop-color="#a8ead8"/></linearGradient>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6" fill="none" stroke="#7c93a7" stroke-width="1.2"/></marker>
+</defs>
+<rect width="1440" height="880" rx="22" fill="url(#background)"/>
+<g font-family="DejaVu Sans, sans-serif">
+  <text x="64" y="69" fill="#72e5bf" font-size="18" letter-spacing="2.4">EXACT COMPUTER-ASSISTED MATHEMATICS</text>
+  <text x="64" y="126" fill="#f3f7fc" font-size="43" font-weight="700">From real roots to simplicial faces</text>
+  <text x="64" y="168" fill="#c3d0dd" font-size="23">Kubitzke–Welker Question 4.4 · bounded degree, unbounded coefficients</text>
+
+  <text x="64" y="197" fill="#91a8bb" font-size="16">Hypotheses: positive integer coefficients and constant term 1</text>
+
+  <rect x="64" y="215" width="416" height="217" rx="14" fill="#21394c" stroke="#3f6575"/>
+  <text x="91" y="255" fill="#bfd2df" font-size="18">REAL-ROOTED POLYNOMIALS</text>
+  <text x="89" y="330" fill="#87edc9" font-size="69" font-weight="700">1–13</text>
+  <text x="91" y="368" fill="#f3f7fc" font-size="21">Every actual degree in this range</text>
+  <text x="91" y="401" fill="#c3d0dd" font-size="18">No coefficient-height restriction</text>
+
+  <rect x="512" y="215" width="416" height="217" rx="14" fill="#21394c" stroke="#3f6575"/>
+  <text x="539" y="255" fill="#bfd2df" font-size="18">NEWTON INEQUALITIES ALONE</text>
+  <text x="537" y="330" fill="#b6ccff" font-size="69" font-weight="700">1–11</text>
+  <text x="539" y="368" fill="#f3f7fc" font-size="21">Sharp guaranteed degree range</text>
+  <text x="539" y="401" fill="#c3d0dd" font-size="18">Strict, symmetric obstruction at 12</text>
+
+  <rect x="960" y="215" width="416" height="217" rx="14" fill="#21394c" stroke="#3f6575"/>
+  <text x="987" y="255" fill="#bfd2df" font-size="18">COEFFICIENT HEIGHT</text>
+  <text x="985" y="330" fill="#f4d38a" font-size="69" font-weight="700">∞</text>
+  <text x="987" y="368" fill="#f3f7fc" font-size="21">The entire tail is proved</text>
+  <text x="987" y="401" fill="#c3d0dd" font-size="18">Not an empirical search cutoff</text>
+
+  <text x="64" y="491" fill="#f3f7fc" font-size="25" font-weight="700">One proof, two complementary regions</text>
+  <rect x="64" y="522" width="628" height="126" rx="12" fill="#1c3e42" stroke="#4c897f"/>
+  <text x="89" y="560" fill="#87edc9" font-size="21" font-weight="700">Infinite region · analytic certificate</text>
+  <text x="89" y="594" fill="#e0eaf1" font-size="19">A monotone inequality certifies every q ≥ Q.</text>
+  <text x="89" y="624" fill="#bfd2df" font-size="17">The cutoff is derived, never guessed.</text>
+  <rect x="724" y="522" width="652" height="126" rx="12" fill="#29394e" stroke="#587498"/>
+  <text x="749" y="560" fill="#b6ccff" font-size="21" font-weight="700">Finite region · exact integer enumeration</text>
+  <text x="749" y="594" fill="#e0eaf1" font-size="19">10,445,449 q values → 15 local exceptions → 0</text>
+  <text x="749" y="624" fill="#bfd2df" font-size="17">Three implementations; arithmetic excludes every exception.</text>
+
+  <rect x="64" y="680" width="1312" height="80" rx="12" fill="#19293d" stroke="#496078"/>
+  <text x="89" y="713" fill="#f4d38a" font-size="19" font-weight="700">The degree-12 obstruction is NOT real-rooted.</text>
+  <text x="89" y="743" fill="#c3d0dd" font-size="18">It refutes the broader Newton-only claim, not the original question. Unrestricted degree is not settled.</text>
+  <text x="64" y="811" fill="#f3f7fc" font-size="17">AI-generated work · two separate AI audits · no human peer review</text>
+  <text x="64" y="843" fill="#91a8bb" font-size="17">Proofs + exact data + reproducible code · novelty and priority unestablished · 2026-11-04</text>
+</g>
+</svg>

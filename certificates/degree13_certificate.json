@@ -1,0 +1,284 @@
+{
+  "statement": "Q4.4 holds for every positive integer real-rooted degree-13 polynomial",
+  "rows": [
+    {
+      "d": 13,
+      "k": 2,
+      "N": 36,
+      "Q": 630,
+      "q_checked": 629,
+      "q_passing_power_bound": 135,
+      "pairs_checked": 13727,
+      "survivors": [
+        {
+          "q": 60,
+          "p": 13,
+          "v": 176
+        },
+        {
+          "q": 61,
+          "p": 13,
+          "v": 181
+        },
+        {
+          "q": 62,
+          "p": 13,
+          "v": 187
+        },
+        {
+          "q": 63,
+          "p": 13,
+          "v": 194
+        },
+        {
+          "q": 72,
+          "p": 14,
+          "v": 236
+        },
+        {
+          "q": 73,
+          "p": 14,
+          "v": 242
+        },
+        {
+          "q": 74,
+          "p": 14,
+          "v": 249
+        }
+      ]
+    },
+    {
+      "d": 13,
+      "k": 3,
+      "N": 35,
+      "Q": 6545,
+      "q_checked": 6544,
+      "q_passing_power_bound": 530,
+      "pairs_checked": 277836,
+      "survivors": [
+        {
+          "q": 245,
+          "p": 86,
+          "v": 537
+        }
+      ]
+    },
+    {
+      "d": 13,
+      "k": 4,
+      "N": 33,
+      "Q": 40920,
+      "q_checked": 40919,
+      "q_passing_power_bound": 1379,
+      "pairs_checked": 2187479,
+      "survivors": []
+    },
+    {
+      "d": 13,
+      "k": 5,
+      "N": 32,
+      "Q": 201376,
+      "q_checked": 201375,
+      "q_passing_power_bound": 2504,
+      "pairs_checked": 7513715,
+      "survivors": []
+    },
+    {
+      "d": 13,
+      "k": 6,
+      "N": 30,
+      "Q": 593775,
+      "q_checked": 593774,
+      "q_passing_power_bound": 3602,
+      "pairs_checked": 16187637,
+      "survivors": []
+    },
+    {
+      "d": 13,
+      "k": 7,
+      "N": 28,
+      "Q": 1184040,
+      "q_checked": 1184039,
+      "q_passing_power_bound": 3319,
+      "pairs_checked": 11730087,
+      "survivors": []
+    },
+    {
+      "d": 13,
+      "k": 8,
+      "N": 27,
+      "Q": 2220075,
+      "q_checked": 2220074,
+      "q_passing_power_bound": 2712,
+      "pairs_checked": 6403367,
+      "survivors": []
+    },
+    {
+      "d": 13,
+      "k": 9,
+      "N": 25,
+      "Q": 2042975,
+      "q_checked": 2042974,
+      "q_passing_power_bound": 1711,
+      "pairs_checked": 1907676,
+      "survivors": []
+    },
+    {
+      "d": 13,
+      "k": 10,
+      "N": 23,
+      "Q": 1144066,
+      "q_checked": 1144065,
+      "q_passing_power_bound": 774,
+      "pairs_checked": 217723,
+      "survivors": []
+    },
+    {
+      "d": 13,
+      "k": 11,
+      "N": 21,
+      "Q": 352716,
+      "q_checked": 352715,
+      "q_passing_power_bound": 218,
+      "pairs_checked": 2976,
+      "survivors": []
+    },
+    {
+      "d": 13,
+      "k": 12,
+      "N": 18,
+      "Q": 18564,
+      "q_checked": 18563,
+      "q_passing_power_bound": 0,
+      "pairs_checked": 0,
+      "survivors": []
+    }
+  ],
+  "survivors_before_final_elimination": [
+    [
+      2,
+      60,
+      13,
+      176
+    ],
+    [
+      2,
+      61,
+      13,
+      181
+    ],
+    [
+      2,
+      62,
+      13,
+      187
+    ],
+    [
+      2,
+      63,
+      13,
+      194
+    ],
+    [
+      2,
+      72,
+      14,
+      236
+    ],
+    [
+      2,
+      73,
+      14,
+      242
+    ],
+    [
+      2,
+      74,
+      14,
+      249
+    ],
+    [
+      3,
+      245,
+      86,
+      537
+    ]
+  ],
+  "eliminations": [
+    {
+      "k": 2,
+      "q": 60,
+      "p": 13,
+      "reason": "small trace",
+      "allowed_q": [
+        65
+      ]
+    },
+    {
+      "k": 2,
+      "q": 61,
+      "p": 13,
+      "reason": "small trace",
+      "allowed_q": [
+        65
+      ]
+    },
+    {
+      "k": 2,
+      "q": 62,
+      "p": 13,
+      "reason": "small trace",
+      "allowed_q": [
+        65
+      ]
+    },
+    {
+      "k": 2,
+      "q": 63,
+      "p": 13,
+      "reason": "small trace",
+      "allowed_q": [
+        65
+      ]
+    },
+    {
+      "k": 2,
+      "q": 72,
+      "p": 14,
+      "reason": "small trace",
+      "allowed_q": [
+        75,
+        76
+      ]
+    },
+    {
+      "k": 2,
+      "q": 73,
+      "p": 14,
+      "reason": "small trace",
+      "allowed_q": [
+        75,
+        76
+      ]
+    },
+    {
+      "k": 2,
+      "q": 74,
+      "p": 14,
+      "reason": "small trace",
+      "allowed_q": [
+        75,
+        76
+      ]
+    },
+    {
+      "k": 3,
+      "q": 245,
+      "p": 86,
+      "reason": "inconsistent integer h1 interval",
+      "h1_lower": 14,
+      "h1_upper": 13
+    }
+  ],
+  "survivors_after_final_elimination": []
+}

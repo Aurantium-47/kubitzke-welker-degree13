@@ -1,0 +1,2 @@
+# Only extras/independent_audit.py needs this. Main certificates use stdlib only.
+sympy==1.14.0
